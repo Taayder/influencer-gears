@@ -39,7 +39,7 @@ body {
     margin-bottom: 36px;
 }
 
-.main-title a {
+.btn {
     text-decoration: none;
     font-weight: 700;
     font-size: 16px;
@@ -47,6 +47,18 @@ body {
     background-color: #E02C6D;
     border-radius: 20px;
     padding: 10px 24px;
+    transition: padding 0.5s ease-in-out, border-radius 0.5s ease-in-out, font-size 0.5s ease-in-out, box-shadow 0.5s ease-in-out;
+}
+
+.btn:hover {
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 18px;
+    color: #FFFFFF;
+    background-color: #E02C6D;
+    border-radius: 23px;
+    padding: 13px 27px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
 }
 
 .fa-arrow-right {
@@ -99,4 +111,79 @@ Social Section Styles
 
 .social-logos img {
     margin-right: 61px;
+}
+
+/* -------------------
+Collection Section Styles
+----------------------- */
+.collection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.collection-title {
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.tech-gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 50px;
+}
+
+.product {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    padding-top: 2%;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.product-details {
+    margin-left: 14px;
+}
+
+.product img {
+    width: 90%;
+}
+
+
+.product h1 {
+    font-size: 28px;
+    color: #18191F;
+    margin-top: 16px;
+    margin-bottom: 6px;
+}
+
+.product h2 {
+    font-size: 24px;
+    color: #000000;
+    opacity: 87%;
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+
+.rating p {
+    font: 14px;
+    margin-top: 3px;
+}
+
+.stars .fa-star {
+    color: #FB8200;
+}
+
+.stars .fa-star-half-stroke {
+    color: #FB8200;
+}
+
+.stars p {
+    display: inline;
+    margin-left: 8px;
+    font-weight: 700;
 }

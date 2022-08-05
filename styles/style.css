@@ -9,6 +9,7 @@
 
 body {
     font-family: 'Poppins', sans-serif;
+    margin: 0;
 }
 
 .main {
@@ -186,4 +187,61 @@ Collection Section Styles
     display: inline;
     margin-left: 8px;
     font-weight: 700;
+}
+
+.see-more {
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: none;
+    color: #E02C6D;
+    opacity: 87%;
+    margin-left: auto;
+    margin-right: 8.5em;
+    margin-top: 50px;
+}
+
+
+
+/* ------------------
+Footer Section Styles
+----------------------- */
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #0A0826;
+    height: 289px;
+    margin-top: 50px;
+}
+
+.footer-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.footer h1 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+.footer p {
+    font-size: 14px;
+    font-weight: 700;
+    color: #FFFFFF;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.footer .icon {
+    color: #FFFFFF;
+    margin: 12px;
+    margin-top: 10px;
+    font-size: 24px;
+    background-color: #22203B;
+    border: 5px solid #22203B;
+    border-radius: 50%;
 }
